@@ -3,6 +3,10 @@
   min-height: 40vh;
   background-size: cover;
 }
+.over{
+  border-left-width: thick;
+  border-color: rgb(6, 29, 6);
+}
 
 .line{
   width: 50px;
