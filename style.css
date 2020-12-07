@@ -15,10 +15,16 @@
 
 .overlap{
   bottom: 0;
-  transform: translateY(40%)
+  transform: translateY(40%);
+}
+@media only screen and (max-width: 400px){
+  .overlap{
+    bottom: 0;
+    transform: translateY(0%)
+  }
 }
 
-.p .text-wrap{
+.p.text-wrap{
   width: 4em;
 }
 
