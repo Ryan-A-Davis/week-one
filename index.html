@@ -26,7 +26,7 @@
     <div class="row align-content-center justify-content-between">
       <div class="col-md-3 ml-3">
         <h5><small> Subtle Heading</small></h5>
-        <form class="border border-success bg-light align-content-center p-3">
+        <form class="bg-light align-content-center p-3">
           <h4 class="text-warning">Less Subtle</h4>
           <div class="form-group">
             <input type="name" class="form-control" id="user-name" aria-describedby="user-nameHelp" placeholder="NAME">
@@ -96,7 +96,11 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus vel id corrupti, unde ad fugiat? Fugit
           repellendus fugiat quod similique, saepe est mollitia cupiditate nemo eaque. Neque dolorum rerum accusantium
           tenetur error expedita debitis obcaecati, labore dolor animi, sit facere alias vero corporis, illo ipsam.</p>
-        <button class="btn btn-danger"> Click deez</button>
+        <div class="row">
+          <div class="col offset-8">
+            <button class="btn btn-danger"> Click deez</button>
+          </div>
+        </div>
       </div>
     </section>
     <section class="row bg-light align-content-bottom justify-content-around">
@@ -112,21 +116,24 @@
           </div>
         </div>
       </div>
-      <div class="col-md-3">
-        <div class="card-body text-center text-dark">
-          <i class="fa fa-star fa fs-2x" aria-hidden="true"></i>
-          <i class="fa fa-star fa fs-3x" aria-hidden="true"></i>
-          <i class="fa fa-star fa fs-2x" aria-hidden="true"></i>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt at ut aliquid doloribus, aperiam dicta
-          illo
-          <footer class=" mt-3">
-            <p class="text-success">Word</p>
-            <p class="text-success">Words under this word yo</p>
-          </footer>
+      <div class="col-md-3 mt-3 sm-order-1">
+        <div class="card align-self-start">
+          <header class="text-center text-warning">
+            <i class="fa fa-star fa fs-2x" aria-hidden="true"></i>
+            <i class="fa fa-star fa fs-3x" aria-hidden="true"></i>
+            <i class="fa fa-star fa fs-2x" aria-hidden="true"></i>
+          </header>
+          <div class="card-body text-center text-dark">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt at ut aliquid doloribus, aperiam dicta
+            illo
+            <footer class=" mt-3">
+              <p class="text-success">Word</p>
+              <p class="text-success">Words under this word yo</p>
+            </footer>
+          </div>
         </div>
       </div>
-      </div>
-      <div class="col-md-3">
+      <div class="col-md-3 mt-5">
         <div class="card">
           <div class="card-body text-center text-dark">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt at ut aliquid doloribus, aperiam dicta
@@ -148,8 +155,8 @@
       </div>
     </section>
   </main>
-  <footer class="container-fluid bg-success">
-    <div class="row border-top bg-danger">
+  <footer class="container-fluid bg-white">
+    <div class="row border-top bg-white">
       <div class="col text-dark">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore enim suscipit aliquam deserunt odit? Recusandae
         eum repellat fugiat possimus impedit tempora molestiae similique magnam labore, ea eius? Libero eos voluptatem
