@@ -1,0 +1,23 @@
+.dj-bg{
+  background-image: url(pexels-erik-mclean-4062563.jpg);
+  min-height: 40vh;
+  background-size: cover;
+}
+
+.line{
+  width: 50px;
+  height: 20px;
+}
+
+.second{
+  position: relative;
+}
+
+.overlap{
+  bottom: 0;
+  transform: translateY(40%)
+}
+
+.p .text-wrap{
+  width: 4em;
+}
